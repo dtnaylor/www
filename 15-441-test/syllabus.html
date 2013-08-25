@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>15-441: Syllabus</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	    
+
+<link href="extra.css" rel="stylesheet">
+		
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+</script>
+</head>
+<body class=container style="padding-top: 60px;">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand style="color: #428bca;" href="#">15-441</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="exams.html">Exams</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<h1>15-441: Syllabus</h1>
+
+
+<div class="row">
+  <div class="col-md-6">
+
+	 <div class="panel panel-default">
+	   <div class="panel-heading">
+	     <h3 class="panel-title">Textbooks</h3>
+	   </div>
+	   <div class="panel-body">
+	   <p class=todo>The required textbook for the course is 
+	      <b>Computer Networks: A Systems Approach</b>, fifth edition, by 
+	      Larry Peterson and Bruce Davie.
+	      It is available in the CMU Bookstore. Almost all the 
+	      material that we will cover is in the textbook.</p>
+	 
+	   <p>For the programming projects, please see <a
+	   href="http://www.cs.cmu.edu/~dga/systems-se.pdf">Dave's Notes on Software
+	   Engineering for Systems Hackers</a>.</p>
+	 
+	   <p>There are a few recommended texts which are useful references 
+	      (especially if networking becomes your career). 
+	      You can get the best price on them by ordering from an on-line bookstore.
+	   </p>
+	 
+	   <ul>
+	     <li><b>TCP/IP Illustrated, Volume 1:  The Protocols </b> by 
+	       W. Richard Stevens. </li>
+	     <li><b>Unix Network Programming:
+	     Networking APIs: Sockets and XTI (Volume 1)</b> by W. Richard Stevens.</li>
+	     <li><b>Advanced Programming in the Unix Environment</b> by W. Richard Stevens, Addison-Wesley, 1993.</li>
+	   </ul>
+	 
+	   <p>Finally, if you have not taken 15-213, you may find its textbook useful
+	 as a gentle, software-focused introduction to computer architecture.</p>
+	   <ul>
+	    <li><b>Computer Systems: A Programmer's Perspective</b> by Randal E. Bryant
+	 and David R. O'Hallaron.  Prentice Hall, 2003</li>
+	   </ul>
+	</div>
+	</div>
+
+	 <div class="panel panel-default">
+	   <div class="panel-heading">
+	     <h3 class="panel-title">Recitations</h3>
+	   </div>
+	   <div class="panel-body">
+		<p class=todo>This semester we will again have recitations for
+		15-441.  Please select one recitation section to attend (the content
+		will be identical).  Recitations will cover systems hacking techniques
+		designed to save you time and pain on the projects, will go into more
+		detail about certain topics such as TCP, and will have review sessions
+		before exams.</p>
+	  </div>
+	  </div>
+	 
+  </div>
+
+
+  <div class="col-md-6">
+	 <div class="panel panel-default">
+	   <div class="panel-heading">
+	     <h3 class="panel-title">Grading</h3>
+	   </div>
+	   <div class="panel-body">
+		<p>Your final grade for the course will be based on the following weights for 
+		the individual assignments:</p>
+		<ul>
+		  <li>15% Project 1</li>
+		  <li>15% Project 2</li>
+		  <li>15% Project 3</li>
+		  <li>15% Homework</li>
+		  <li>15% Midterm</li>
+		  <li>25% Final Exam</li>
+		</ul>
+		
+		<p>The midterm will be an in-class, closed-book exam, covering all
+		material up to that point in the course. The final exam will be a
+		closed-book exam, covering m aterial from the whole year, with
+		emphasis on the second half of the course.</p>
+		
+		<p class=todo>
+		Project 1 will focus on the implementation of an IRC-like chat server,
+		ensuring familiarity with socket programming.  Project 2 will
+		build upon your IRC server from project 1
+		implementing routing protocols within the
+		application.  Project 3 will focus on file transfers and the protocol
+		components necessary for efficient and reliable file transfer
+		(retransmission, congestion control, caching, etc.)  Project 1 is a solo
+		project;  projects 2 and 3 are 
+		to be done in groups of two students.</p>
+		
+		<p>The homework will combine both textbook-like questions as well as hands-on 
+		experimental exercises. There will be three homework assignments.</p>
+		
+		<p><i>Because of the importance of understanding both the theoretical and
+		hands-on elements of networking, students must pass all three components of the
+		course (homeworks, exams, and the projects) in order to receive a passing grade
+		for the course.</i></p>
+		</div>
+	  </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Schedule</h3>
+  </div>
+  <div class="panel-body">
+
+
+<table class="table table-hover table-striped">
+  <tr>
+   <th>Date</th>
+   <th>Instructor</th>
+   <th>Topics</th>
+   <th>Notes</th>
+   <th>Readings</th>
+ </tr>
+<!-- Note:  Do not edit this file directly!  Edit syllabus.head, syllabus.tail, and lectures.txt -->
+<tr class="lecture">
+ <td>Fri 08/30</td>
+ <td>SS</td>
+ <td>Introduction <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 08/31</td>
+ <td>Wolf</td>
+ <td>Life, Liberty, and the Pursuit of...Sockets! <br />
+ </td>
+ <td>Recitations available via GitHub as well (feel free to contribute and fork) <a href="https://github.com/theonewolf/15-441-Recitation-Sessions">15-441 Recitation Sessions</a></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 09/01</td>
+ <td>SS</td>
+ <td>Protocol Stacks and Layering <br />
+ </td>
+ <td>Readings <a href ="http://www.cs.cmu.edu/~dga/15-849/papers/saltzer-e2e.pdf">End to End Arguments in System Design</a> and <a href="http://www.cs.cmu.edu/~dga/15-849/papers/clark88design.pdf">Internet Protocols Design Philosophy</a>.</td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Mon 09/02</td>
+ <td>Athula and Wolf</td>
+ <td>HW 1 <br />
+ </td>
+ <td><a href="hw/hw1.pdf">HW 1</a> released, due <strike>9/15</strike> 9/20 at the beginning of class.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 09/06</td>
+ <td>RBD</td>
+ <td>Application Layer Examples <br />
+ </td>
+ <td></td>
+ <td>9.1  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/07</td>
+ <td>Wolf</td>
+ <td>Why so Software Engineeringy? <br />
+ </td>
+ <td>See Revision Control chapter of <a href="http://www.cs.cmu.edu/~dga/systems-se.pdf">systems-se</a>.<br /> Also see the <a href="http://svnbook.red-bean.com/">online Subversion book</a>, and <a href="http://gitimmersion.com/">Git Immerstion</a>.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 09/08</td>
+ <td>RBD</td>
+ <td>Physical Layer <br />
+ </td>
+ <td>Project 1 Assigned</td>
+ <td>2.1-2.5  </td>
+</tr>
+<tr class="recitation">
+ <td>Mon 09/09</td>
+ <td>Athula and Wolf</td>
+ <td>PJ1CP1 <br />
+ </td>
+ <td><a href="pj1cp1.html">Project 1 Checkpoint 1</a> released, due 9/16 by midnight.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 09/13</td>
+ <td>Wolf</td>
+ <td>Cryptography&#58; Gur Cbjre bs Xabjyrqtr <br />
+ </td>
+ <td>Read <a href="http://www.philzimmermann.com/EN/essays/SnakeOil.html">Beware of Snake Oil</a>.  Also, a <a href="lectures/05-crypto.jpg">steganography example</a>! And don't forget, the title slide had ciphertext...</td>
+ <td>8.1-8.2  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/14</td>
+ <td>Athula</td>
+ <td>Sockets &amp; Concurrency and Project 1 Q&amp; A <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 09/15</td>
+ <td>RBD</td>
+ <td>Coding and error control <br />
+ </td>
+ <td></td>
+ <td>2.6-2.10  </td>
+</tr>
+<tr class="recitation">
+ <td>Mon 09/16</td>
+ <td>Athula and Wolf</td>
+ <td>PJ1CP2 <br />
+ </td>
+ <td><a href="pj1cp2.html">Project 1 Checkpoint 2</a> released, due 9/30 by midnight.  Also, <a href="project1.pdf">Project 1 Living Document</a> released.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 09/20</td>
+ <td>RBD</td>
+ <td>Datalink and ethernet <br />
+ </td>
+ <td></td>
+ <td>3.1-3.2  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/21</td>
+ <td>Wolf</td>
+ <td>Learning the Pythonic Way <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 09/22</td>
+ <td>RBD</td>
+ <td>Switching and Bridging <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 09/27</td>
+ <td>SS</td>
+ <td>IP forwarding &amp; addressing <br />
+ </td>
+ <td></td>
+ <td>4.1  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/28</td>
+ <td>Athula</td>
+ <td>HTTP Parsing <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/28</td>
+ <td>Wolf</td>
+ <td>Testing in the Trenches <br />
+ </td>
+ <td>Learn how to use your browser, try ctrl-shift-i in Chrome.  It can help test.</td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 09/28</td>
+ <td>Charles</td>
+ <td>HW 2 <br />
+ </td>
+ <td><a href="hw/hw2.pdf">HW 2</a> released, due  <strike>10/13</strike> 10/17 @ 1:30pm</td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 09/29</td>
+ <td>SS</td>
+ <td>IP Packets, IPv6, NAT <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Mon 09/30</td>
+ <td>Athula and Wolf and Charles</td>
+ <td>PJ1CP3 <br />
+ </td>
+ <td><a href="pj1cp3.html">Project 1 Checkpoint 3</a> released, due 10/14 by midnight.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 10/04</td>
+ <td>SS</td>
+ <td>Routing: Distance Vector/Link State <br />
+ </td>
+ <td></td>
+ <td>4.2  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 10/05</td>
+ <td>Athula</td>
+ <td>Angels (OpenSSL) and D(a)emons <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 10/06</td>
+ <td>SS</td>
+ <td>Routing:  BGP <br />
+ </td>
+ <td></td>
+ <td>4.4  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 10/11</td>
+ <td>SS</td>
+ <td>DNS <br />
+ </td>
+ <td></td>
+ <td>9.3  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 10/12</td>
+ <td>Wolf</td>
+ <td>No Web Server Left Behind: Doing Project 1 in Close to 48 Hours <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 10/13</td>
+ <td>RBD</td>
+ <td>Router Design <br />
+ </td>
+ <td></td>
+ <td>3.3-3.5  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 10/18</td>
+ <td>RBD</td>
+ <td>Tunnels, Virtual circuits, ATM, MPLS, VPN <br />
+ </td>
+ <td></td>
+ <td>4.3  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 10/19</td>
+ <td>Athula</td>
+ <td>Midterm exam Review <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="exam">
+ <td>Sun 10/20</td>
+ <td>PRS</td>
+ <td>MIDTERM EXAM <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Fri 10/25</td>
+ <td>SS</td>
+ <td>Transport Intro <br />
+ </td>
+ <td></td>
+ <td>5.1-5.5  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 10/26</td>
+ <td>Athula</td>
+ <td>Distributed HTTP Service <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Sun 10/27</td>
+ <td>SS</td>
+ <td>TCP &amp; Congestion Control <br />
+ </td>
+ <td></td>
+ <td>5.2  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Fri 11/01</td>
+ <td>SS</td>
+ <td>More TCP &amp; Congestion Control <br />
+ </td>
+ <td></td>
+ <td>6.1-6.3  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 11/02</td>
+ <td>Wolf</td>
+ <td>How You're Going to Rule the World <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Sun 11/03</td>
+ <td>SS</td>
+ <td>TCP Performance <br />
+ </td>
+ <td></td>
+ <td>6.4  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Fri 11/08</td>
+ <td>RBD</td>
+ <td>Web + CDNs + Caching + Hashing <br />
+ </td>
+ <td>Helpful references <a href="bh-eu-06-biondi-up.pdf">Silver Needle in the Skype</a> and <a href="Baset-Schulzrinne.pdf">An Analysis of the Skype Peer-to-Peer Internet Telephony Protocol</a>.</td>
+ <td>9.4  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 11/09</td>
+ <td>Athula</td>
+ <td>What does the future behold? <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Sun 11/10</td>
+ <td>RBD</td>
+ <td>P2P <br />
+ </td>
+ <td></td>
+ <td>9.4  </td>
+</tr>
+<tr class="recitation">
+ <td>Thu 11/14</td>
+ <td>Wolf</td>
+ <td>PJ3CP1 <br />
+ </td>
+ <td><a href="pj3cp1.html">Project 3 Checkpoint 1</a> released, due 11/21 by midnight.  Also, <a href="project3.pdf">Project 3 Living Document</a> released.</td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Fri 11/15</td>
+ <td>RBD</td>
+ <td>VoIP, video, multimedia <br />
+ </td>
+ <td></td>
+ <td>7.2, 9.2  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 11/16</td>
+ <td>Wolf</td>
+ <td>There is no Such Thing as TCP: TCP Congestion Control <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Sun 11/17</td>
+ <td>RBD</td>
+ <td>QOS <br />
+ </td>
+ <td></td>
+ <td>5.4, 6.5  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Fri 11/22</td>
+ <td>SS</td>
+ <td>Mobile Networking (IP &amp; TCP) <br />
+ </td>
+ <td></td>
+ <td>2.7, 4.4  </td>
+</tr>
+<tr class="noclass">
+ <td>Sat 11/23</td>
+ <td></td>
+ <td>Thanksgiving <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="noclass">
+ <td>Mon 11/25</td>
+ <td></td>
+ <td>Thanksgiving <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 11/29</td>
+ <td>AB</td>
+ <td>Wireless neworks, ad-hoc wireless, and sensor networks <br />
+ </td>
+ <td></td>
+ <td>2.8  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 11/30</td>
+ <td>Wolf</td>
+ <td>You Aren't a One Man Army: Introducing 0MQ <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 12/01</td>
+ <td>SS</td>
+ <td>Questioning our assumptions <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture">
+ <td>Fri 12/06</td>
+ <td>RBD</td>
+ <td>Security - firewalls, DoS, etc. <br />
+ </td>
+ <td></td>
+ <td>8.3-8.5  </td>
+</tr>
+<tr class="recitation">
+ <td>Sat 11/30</td>
+ <td>Wolf</td>
+ <td>The Last Recitation <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="lecture alt">
+ <td>Sun 12/08</td>
+ <td>RBD</td>
+ <td>Class Review <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+<tr class="recitation">
+ <td>Wed 12/18</td>
+ <td>Athula and Wolf</td>
+ <td>Final Review: A Shot in the Dark <br />
+ </td>
+ <td>in 5409 Wean Hall, 1pm-2pm or whenever the questions stop</td>
+ <td>  </td>
+</tr>
+<tr class="exam">
+ <td>Fri 12/20</td>
+ <td>PRS</td>
+ <td>Final Exam <br />
+ </td>
+ <td></td>
+ <td>  </td>
+</tr>
+</table>
+  </table>
+  
+  <a href="15-441-Fall2013.ics" ><button type="button" class="btn btn-primary"><span class="glyphicon glyphicon-cloud-download"></span> Download iCal File</button></a>
+</div>
+</div>
+
+<hr />
+<p class="lastupdated">Last updated: Sat Aug 24 21:38:06 -0400 2013
+ [<a href="http://validator.w3.org/check?uri=referer">validate xhtml</a>]</p>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://getbootstrap.com/assets/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

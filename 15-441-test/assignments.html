@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html 
+ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<title>15-441 Assignments</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+	    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+	    
+
+<link href="extra.css" rel="stylesheet">
+		
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+</script>
+</head>
+<body class=container style="padding-top: 60px;">
+
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand style="color: #428bca;" href="#">15-441</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <ul class="nav navbar-nav">
+<li><a href="index.html">Home</a></li>
+<li><a href="syllabus.html">Syllabus</a></li>
+<li><a href="assignments.html">Assignments</a></li>
+<li><a href="exams.html">Exams</a></li>
+<li><a href="announcements.html">Announcements</a></li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+</nav>
+
+<h1>15-441 Assignments</h1>
+
+
+<table class="table">
+<tr>
+<th width="20%">Assignment</th>
+<th width="10%">Assigned</th>
+<th width="10%">Due</th>
+<th width="40%">Notes</th>
+<th width="20%">Solutions</th>
+</tr>
+
+
+
+</table>
+
+
+<div class=todo>
+<p>There will be three programming projects and four written
+homework assignments.</p>
+<p>All homework and the first project is to be done individually.  The second
+and third programming projects will be done in groups of two students; This is
+for two reasons: the first is the size of the class. The second and more
+important reason is that this is an opportunity to experience the joys and
+frustrations of working with others. It's a skill you only get better at with
+practice.</p>
+</div>
+
+<p>Since 15-441 fulfills the project-class requirement of the CS
+degree, you will be expected to learn and practice good software
+engineering, as well as demonstrate mastery of the networking
+concepts. Both partners in a project group will need to fully
+understand the project and your solution in order to do well on
+those exam questions relating to the projects. For example, a
+typical question might be: "When you implemented <i>X</i>, you
+came across a particular situation <i>Y</i> that required some
+care. Explain why this simple solution <i>Z</i> doesn't work and
+describe how you solved it." We'll pick questions such that it
+will take some effort to figure out <i>Y</i>. If you didn't take
+the time to work the problem yourself and just relied on your
+partner, you won't have enough time during the test to figure it
+out. Be careful, the insights you'll need will come only from
+actually <b>solving</b> the problem as opposed to just seeing the
+solution.</p>
+
+<div class=todo>
+<p>By their nature, the assignments aren't going to be completely
+comprehensive of everything you'll encounter in the real world
+or in class.  To assist you, we've compiled a list of
+<a href="study_problems.html">suggested study problems</a>
+that you may want to do in addition to the normal homework.
+They're not graded, but they'd make great topics to discuss
+with the course staff during office hours.</p>
+</div>
+
+<h2>Notes on the 15-441 Programming Projects</h2>
+
+<p>A key objective of 15-441 is to provide
+a significant experience with system programming, where you must write
+programs that are robust and that must integrate with a large, installed
+software base.  Oftentimes, these programs are the ones that other
+people will build upon or use as tools.  Systems programming is very
+different from the application program development you have done in earlier
+courses:
+</p>
+<ul>
+<li>It is typically done in a low-level language, such as C, to ensure
+close control over system resources.</li>
+<li>Especially with server code, it must be designed to run indefinitely.
+It must handle reliably handle <i>every</i> possible error condition, and
+it must manage resources such as memory with care.</li>
+<li>It must be secure.  Connecting a system to a network makes it vulnerable
+to malicious attacks initiated anywhere in the world.  Poorly designed
+or implemented network software provides a common entrypoint for attack.
+System software must be invulnerable to flaws such as string overflows
+or malformed incoming messages.  (This point bears repeating:  Any
+system software must stringently check input it receives from the
+network or from the user.  Do not trust either one!  They're often
+out to get you.)</li>
+<li>The interfaces to other parts of the system are generally specified
+by documented protocols.</li>
+<li>Networking software typically involves concurrency, both within individual
+machines (multiple processes or threads) as well as among the different
+network components.</li>
+<li>An important part of system programming is to develop comprehensive
+test methods for the programs.  A significant effort should be invested
+in writing programs that will thoroughly test the system code, including
+the handling of different error conditions.</li>
+</ul>
+
+<p>Finally, please note that, by design, the 15-441 projects do not always
+specify every corner case bit of behavior or every design decision you may have
+to make.  A major challenge in implementing real systems is in making the leap
+from a specification that is often somewhat incomplete (e.g., the IRC spec) to
+a real-world implementation.  Don't get frustrated --- our grading will not
+dock you for making reasonable design decisions!  We suggest three general
+guidelines to follow: </p>
+
+<ul>
+<li><i>Be conservative in what you do, be liberal in what you accept from
+others.</i> This is the design guideline underlying many Internet services,
+first uttered as a robustness principle by Jon Postel in the <a
+href="http://tools.ietf.org/rfc/rfc793.txt">first TCP RFC, RFC 793</a>.
+
+<li><i class=todo>Browse the newsgroup and FAQ, ask the course staff!</i>
+
+<li><i>Make a reasonable design decision and document it.</i> In a
+perfect world, all aspects of a design would be comletely specified,
+but most real-world, large, complex systems do not achieve this goal.
+You will often hear the course staff reply: <i>You may pick either
+alternative as long as your server does not crash.</i> This advice
+applies particularly to error handling, where there are a nearly
+infinite number of possible errors with partially-specified error
+responses.  The goal of the course is to gain experience with creating
+large systems; we don't expect students to be psychic but rather to
+exercise good judgement about creating a robust and usable system.
+</ul>
+
+<p>We'll go into more detail about each of these points during the
+recitation sections.  But keep in mind:  the programming assignments
+in 15-441 are larger and more open-ended than in other courses.
+Doing a good job on the project requires more than just producing
+code that runs:  it should have a good overall organization, be
+well implemented and documented, and be thoroughly tested.
+</p>
+
+<hr />
+<p class="lastupdated">Last updated: Sat Aug 24 21:38:06 -0400 2013
+ [<a href="http://validator.w3.org/check?uri=referer">validate xhtml</a>]</p>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="http://getbootstrap.com/assets/js/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>
