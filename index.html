@@ -154,7 +154,7 @@ hr.soften {
 				<td valign="top">
 
 
-				<p>I'm a fourth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, and I'm interested in computer networking and security. My advisor is <a href="http://www.cs.cmu.edu/~prs/">Peter Steenkiste</a>.</p>
+				<p>I'm a fifth year Ph.D. student in the Computer Science Department at Carnegie Mellon University, and I'm interested in computer networking and security. My advisor is <a href="http://www.cs.cmu.edu/~prs/">Peter Steenkiste</a>.</p>
 				<p>&nbsp;</p>
 				<p>I received degrees in computer science and mathematics from <a href="http://www.uiowa.edu/">The University of Iowa</a>, where I worked with the UI <a href="http://compepi.cs.uiowa.edu/">Computational Epidemiology Group</a>.</p>
 				<p>&nbsp;</p>
@@ -206,6 +206,56 @@ hr.soften {
 				<td valign="top">
 					<h3>Ubiquitous Encryption</h3>
 					<h4>Preparing for an HTTPS-only Web.</h4>
+					
+
+					<div class="hero">
+						<h5>Multi-Context TLS (mcTLS)</h5>
+						<table align="center" cellspacing=5px" >
+							<tr>
+								<td>
+									<p>Multi-Context TLS allows endpoints to
+									explicitly add trusted middleboxes to encrypted sessions. It provides
+									fine-grained access control, so middlebox access can be restricted to read-only
+									or limited to only part of the data stream.</p>
+								</td>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td>
+									<a href="mcTLS.pdf"><img src="images/mctls_icon@2x.png" height="150px"/></a>
+								</td>
+<!--
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td>
+									<a href="CostOfTheS_slides.pdf"><img src="images/https_slides_icon@2x.png" width="150px"/></a>
+								</td>
+-->
+							</tr>
+							<tr>
+								<td align="center">
+									<p>&nbsp;</p>
+								</td>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td align="center">
+									<a href="mcTLS.pdf"><p>Read the paper</a></p>
+								</td>
+<!--
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td align="center">
+									<a href="CostOfTheS_slides.pdf"><p>See the slides</a></p>
+								</td>
+-->
+							</tr>
+						</table>
+					</div> <!-- mcTLS hero -->
+
+					<p>&nbsp;</p>
 
 					<div class="hero">
 						<h5>HTTPS Dashboard</h5>
@@ -233,7 +283,9 @@ hr.soften {
 						<table align="center" cellspacing=5px" >
 							<tr>
 								<td>
-									<p>We presented our work examining the cost of encrypted Web browsing at <a href="http://conferences2.sigcomm.org/co-next/2014/">CoNEXT 2014</a>.</p>
+									<p>A collection of measurements showing the
+									deployment and costs of HTTPS. Costs include handshake latency and loss of
+									middlebox services like caching and compression.</p>
 								</td>
 								<td>
 									<p>&nbsp;</p>
@@ -289,14 +341,16 @@ hr.soften {
 					<p>My current work is on the <a href="http://www.cs.cmu.edu/~xia/">eXpressive Internet Architecture</a> (XIA), one of five <a href="http://www.nets-fia.net">future Internet architecture</a> projects sponsored by the NSF.</p>
 					<p>&nbsp;</p>
 					<div class="hero">
-						<h5>Accountability and Privacy</h5>
+						<a href="http://www.sigcomm.org/awards/best-paper-award" style="float: right; margin-top: 10px; text-decoration: none;"><p style="font-size: 90%; text-align: right; color: #ffffff;"><span style="background-color: rgba(125,125,125,0.7)" class="hero">BEST PAPER AWARD</span></p></a>
+						<h5>Accountability and Privacy</h5> 
 						<table align="center" cellspacing=5px" >
 							<tr>
 								<td>
-									<p>We presented our work on balancing accountability and privacy in the Internet at <a href="http://conferences.sigcomm.org/sigcomm/2014/">SIGCOMM 2014</a>.</p>
-									<p>&nbsp;</p>
-									<p>&nbsp;</p>
-									<a href="http://www.sigcomm.org/awards/best-paper-award" style="text-decoration: none;"><p style="font-size: 90%; text-align: center; color: #ffffff;"><span style="background-color: rgba(125,125,125,0.7)" class="hero">BEST PAPER AWARD</span></p></a>
+									<p>The Accountable and Private Internet
+										Architecture (APIP) is designed to balance accountability and privacy. Senders
+										are able to hide their addresses from the network by delegating responsibility
+										for their packets to a trusted third party, which vouches for its clients'
+										traffic unless a flow has been reported as malicious.</p>
 								</td>
 								<td>
 									<p>&nbsp;</p>
