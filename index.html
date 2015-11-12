@@ -52,7 +52,6 @@ body {
 	border-radius: 5px;
 }
 h1 {
-	//font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	margin-top: 5px;
 	font-weight: 100;
 	font-size: 48pt;
@@ -64,7 +63,6 @@ h2 {
 	font-size: 24pt;
 }
 h3 {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing: 0px;
 	margin-top: 0px;
 	margin-bottom: 0px;
@@ -73,7 +71,6 @@ h3 {
 	color:#000000;
 }
 h4 {
-	font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing: 0px;
 	margin-top: 0px;
 	color: #666666;
@@ -83,9 +80,18 @@ h4 {
 h5 {
 	letter-spacing: 0px;
 	margin-top: 0px;
-	margin-bottom: 5px;
+	margin-bottom: 0px;
 	font-size: 12pt;
 	//color: #999999;
+	//font-weight: 500;
+}
+h6 {
+	font-family: 'HelveticaNeue-CondensedBold', 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-size: 12pt;
+	color: #666666;
 	//font-weight: 500;
 }
 p {
@@ -197,19 +203,61 @@ hr.soften {
 <hr class="soften">
 		</td></tr>
 		
-		<tr> <!-- HTTPS row -->
+		<tr> <!-- privacy row -->
 		<td>
 			<table cellspacing="25px">
 				<td valign="top">
-					<a href="https_poster.pdf"><img style="vertical-align: top;" src="images/https_poster_thumb@2x.png" width="150px"/></a>
+					<a href="mctls_poster.pdf"><img style="vertical-align: top;" src="images/mctls_poster_thumb@2x.png" width="150px"/></a>
 				</td>
 				<td valign="top">
-					<h3>Ubiquitous Encryption</h3>
-					<h4>Preparing for an HTTPS-only Web.</h4>
+					<h3>Managing Privacy Tradeoffs</h3>
+					<h4>Balancing <i>privacy</i> and <i>{accountability, functionality, performance}</i>.</h4>
+					
+
+					<div class="hero">
+						<h5>Share Count Analysis</h5>
+						<h6>HotNets '15</h6>
+						<table align="center" cellspacing=5px" >
+							<tr>
+								<td>
+									<p>Share Count Analysis is our first step
+									toward a general privacy measurement
+									methodology&mdash;that is, a technique for
+									measuring "how private" an arbitrary
+									network architecture or protocol is.</p>
+									</br>
+								</td>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td align="center">
+									<a href="ShareCountAnalysisHotnets.pdf"><img src="images/sca_hotnets_thumb@2x.png" height="150px"/></a>
+									<div style="padding-top:5px"><a href="ShareCountAnalysisHotnets.pdf"><p>Read the paper</a></p></div>
+								</td>
+								<!--<td>
+									<p>&nbsp;</p>
+								</td>
+								<td align="center">
+									<a href="mcTLS_slides.pdf"><img src="images/mctls_slides_thumb@2x.png" width="150px"/></a>
+									<div style="padding-top:5px"><a href="mcTLS_slides.pdf"><p>See the slides</a></p></div>
+								</td>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td align="center">
+									<a href="https://www.youtube.com/watch?v=9ERBeLU-yZI"><img src="images/mctls_video_thumb@2x.png" width="150px"/></a>
+									<div style="padding-top:5px"><a href="https://www.youtube.com/watch?v=9ERBeLU-yZI"><p>Watch the video</a></p></div>
+								</td>-->
+							</tr>
+						</table>
+					</div> <!-- SCA hero -->
+
+					<p>&nbsp;</p>
 					
 
 					<div class="hero">
 						<h5>Multi-Context TLS (mcTLS)</h5>
+						<h6>SIGCOMM '15</h6>
 						<table align="center" cellspacing=5px" >
 							<tr>
 								<td colspan="5">
@@ -244,30 +292,69 @@ hr.soften {
 					</div> <!-- mcTLS hero -->
 
 					<p>&nbsp;</p>
-
+					
 					<div class="hero">
-						<h5>HTTPS Dashboard</h5>
+						<a href="http://www.sigcomm.org/awards/best-paper-award" style="float: right; margin-top: 10px; text-decoration: none;"><p style="font-size: 90%; text-align: right; color: #ffffff;"><span style="background-color: rgba(125,125,125,0.7)" class="hero">BEST PAPER AWARD</span></p></a>
+						<h5>Accountable and Private Internet Protocol (APIP)</h5> 
+						<h6>SIGCOMM '14</h6>
 						<table align="center" cellspacing=5px" >
 							<tr>
 								<td>
-									<a href="http://httpsdashboard.com"><img src="images/https_dashboard_icon@2x.png" width="150px"/></a>
+									<p>The Accountable and Private Internet
+										Protocol (APIP) is designed to balance accountability and privacy. Senders
+										are able to hide their addresses from the network by delegating responsibility
+										for their packets to a trusted third party, which vouches for its clients'
+										traffic unless a flow has been reported as malicious.</p>
 								</td>
 								<td>
 									<p>&nbsp;</p>
 								</td>
+								<td align="center">
+									<a href="APIP.pdf"><img src="images/apip_icon@2x.png" height="150px"/></a>
+									<div style="padding-top:5px"><a href="APIP.pdf"><p>Read the paper</a></p></div>
+								</td>
 								<td>
-									<p>Monitoring the usage of HTTPS on the Web.</p>
 									<p>&nbsp;</p>
-									<p style="text-align: center;"><a href="http://httpsdashboard.com">Check it out &#8594;</a></p>
+								</td>
+								<td align="center">
+									<a href="APIP_slides.pdf"><img src="images/apip_slides_icon@2x.png" width="150px"/></a>
+									<div style="padding-top:5px"><a href="APIP_slides.pdf"><p>See the slides</a></p></div>
 								</td>
 							</tr>
 						</table>
-					</div> <!-- HTTPS dashboard hero -->
-									
-					<p>&nbsp;</p>
+					</div> <!-- APIP hero -->
+
+				</td>
+			</table>
+		</td>
+		</tr>  <!-- privacy row -->
+
+
+
+
+
+		<tr><td>
+<hr class="soften">
+		</td></tr>
+
+
+
+
+
+		<tr> <!-- Web row -->
+		<td>
+			<table cellspacing="25px">
+				<td valign="top">
+					<a href="https_poster.pdf"><img style="vertical-align: top;" src="images/https_poster_thumb@2x.png" width="150px"/></a>
+				</td>
+				<td valign="top">
+					<h3>State of the Web</h3>
+					<h4>Monitoring the Web as we move towards HTTP/2 and ubiquitous HTTPS.</h4>
+					
 
 					<div class="hero">
 						<h5>The Cost of the "S" in HTTPS</h5>
+						<h6>CoNEXT '14</h6>
 						<table align="center" cellspacing=5px" >
 							<tr>
 								<td>
@@ -292,26 +379,8 @@ hr.soften {
 							</tr>
 						</table>
 					</div> <!-- CostOfTheS hero -->
-				</td>
-			</table>
-		</td>
-		</tr>  <!-- HTTPS row -->
-
-
-
-
-
-
-		<tr><td>
-<hr class="soften">
-		</td></tr>
-
-		<tr> <!-- HTTP2 row -->
-		<td>
-			<table cellspacing="25px">
-				<td valign="top" width="150px">
-				</td>
-				<td valign="top">
+									
+					<p>&nbsp;</p>
 
 					<div class="hero">
 						<h5>HTTP/2 Dashboard</h5>
@@ -331,14 +400,32 @@ hr.soften {
 							</tr>
 						</table>
 					</div> <!-- HTTP2 dashboard hero -->
+					
+					<p>&nbsp;</p>
+
+					<div class="hero">
+						<h5>HTTPS Dashboard</h5>
+						<table align="center" cellspacing=5px" >
+							<tr>
+								<td>
+									<a href="http://httpsdashboard.com"><img src="images/https_dashboard_icon@2x.png" width="150px"/></a>
+								</td>
+								<td>
+									<p>&nbsp;</p>
+								</td>
+								<td>
+									<p>Monitoring the usage of HTTPS on the Web.</p>
+									<p>&nbsp;</p>
+									<p style="text-align: center;"><a href="http://httpsdashboard.com">Check it out &#8594;</a></p>
+								</td>
+							</tr>
+						</table>
+					</div> <!-- HTTPS dashboard hero -->
 
 				</td>
 			</table>
 		</td>
-		</tr>  <!-- HTTPS row -->
-
-
-
+		</tr>  <!-- Web row -->
 
 
 
@@ -358,38 +445,6 @@ hr.soften {
 				<td valign="top">
 					<h3>eXpressive Internet Architecture</h3>
 					<h4>An Evolvable, Expressive, and Secure Future Internet Architecture</h4>
-					<p>My current work is on the <a href="http://www.cs.cmu.edu/~xia/">eXpressive Internet Architecture</a> (XIA), one of five <a href="http://www.nets-fia.net">future Internet architecture</a> projects sponsored by the NSF.</p>
-					<p>&nbsp;</p>
-					<div class="hero">
-						<a href="http://www.sigcomm.org/awards/best-paper-award" style="float: right; margin-top: 10px; text-decoration: none;"><p style="font-size: 90%; text-align: right; color: #ffffff;"><span style="background-color: rgba(125,125,125,0.7)" class="hero">BEST PAPER AWARD</span></p></a>
-						<h5>Accountability and Privacy</h5> 
-						<table align="center" cellspacing=5px" >
-							<tr>
-								<td>
-									<p>The Accountable and Private Internet
-										Architecture (APIP) is designed to balance accountability and privacy. Senders
-										are able to hide their addresses from the network by delegating responsibility
-										for their packets to a trusted third party, which vouches for its clients'
-										traffic unless a flow has been reported as malicious.</p>
-								</td>
-								<td>
-									<p>&nbsp;</p>
-								</td>
-								<td align="center">
-									<a href="APIP.pdf"><img src="images/apip_icon@2x.png" height="150px"/></a>
-									<div style="padding-top:5px"><a href="APIP.pdf"><p>Read the paper</a></p></div>
-								</td>
-								<td>
-									<p>&nbsp;</p>
-								</td>
-								<td align="center">
-									<a href="APIP_slides.pdf"><img src="images/apip_slides_icon@2x.png" width="150px"/></a>
-									<div style="padding-top:5px"><a href="APIP_slides.pdf"><p>See the slides</a></p></div>
-								</td>
-							</tr>
-						</table>
-					</div> <!-- APIP hero -->
-					<p>&nbsp;</p>
 					<div class="hero">
 						<h5>Demo at GEC15</h5>
 						<table align="center" cellspacing=5px" >
