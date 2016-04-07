@@ -1,0 +1,231 @@
+body, input, textarea {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 12pt;
+}
+/*
+body {
+	//background: #e2e2e2;
+	background-image: url('../images/mountains.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}*/
+
+.top-bg {
+	width: 100vw;
+	margin-left: calc(-50vw + 50%);
+	background-color: #00C947;
+
+	color: #FFFFFF;
+
+	padding-bottom: 70px;
+}
+
+.top-bg a {
+	color: #777777;
+}
+
+.top-bg a:hover {
+	color: #555555;
+}
+
+.center-photo {
+	width: 200px;
+	height: 200px;
+	border-radius: 100px;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	background: url('../images/me-2014@2x.jpg') no-repeat;
+	background-size: 200px 300px;
+	background-position: 0 -25px;
+
+	box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
+
+	-webkit-transform: translateY(-100px);
+	transform: translateY(-100);
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: -50px;  // -100 (picture) + 50 (more space under photo)
+
+}
+.center-photo img {
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+
+.tagline {
+	font-family: 'Roboto Slab', Georgia;
+	font-size: 28px;
+	font-weight: 300;
+	font-style: italic;
+	//color: #CCCCCC;
+
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.content {
+	//background: #FFFFFF;
+	//background-color:rgba(255,255,255,0.75);
+	//width: 70%;
+	//min-width: 500px;
+	max-width: 800px;
+	margin-top:30px;
+	margin-left:auto;
+	margin-right:auto;
+	//-moz-border-radius: 5px;
+	//border-radius: 5px;
+	//padding: 15px;
+}
+.footer-content {
+	width: 70%;
+	//min-width: 500px;
+	max-width: 800px;
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #FFFFFF;
+}
+.footer-content a {
+	color: #FFFFFF;
+}
+.footer-bg {
+	background: #c4c4c4;
+	margin-top:60px;
+}
+.bordered-image {
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#cv-link:link{
+	//font-family: "Lato", Helvetica, Arial, sans-serif;
+	//font-weight: 400;
+	//color: #666;
+	width:225px;
+	text-decoration: none;
+	margin: 18px auto 0 auto;
+	display: block;
+	border: solid 1px #FFF;
+	padding: 15px 0 15px 0;
+
+	-webkit-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+#cv-link:visited{
+	color: #FFF;
+	border: solid 1px #FFF;
+}
+
+#cv-link:hover{
+	background-color:#FFFFFF;
+	border: solid 1px #FFFFFF;
+	color: #00C947;
+}
+
+/* centered columns styles */
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+h1 {
+	font-family: 'Roboto Slab', Georgia;
+	font-weight: 300;
+	font-size: 64pt;
+
+	margin-top: 5px;
+}
+h2 {
+	font-family: 'Roboto Slab', Georgia;
+	font-weight: 400;
+	font-size: 24pt;
+	color: #00C947;
+
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+h3 {
+	font-family: 'Roboto Slab', Georgia;
+	font-weight: 300;
+	font-size: 14pt;
+	color: #666666;
+
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+h4 {
+	font-family: 'Roboto Slab', Georgia;
+	margin-top: 0px;
+	font-weight: 400;
+	font-size: 12pt;
+}
+h4 small {
+	font-weight: 300;
+	color: #00C947;
+	font-size: 11pt;
+	border-left: 1px solid #AAAAAA;
+	margin-left: 5px;
+	padding-left: 5px;
+}
+
+h5 {
+	font-family: 'Roboto Slab', Georgia;
+	letter-spacing: 0px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	text-transform: uppercase;
+	font-size: 10pt;
+	font-weight: 600;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+a {
+	color: #00C947;
+	text-decoration: none;
+}
+a:hover {
+	color: #00852F;
+	text-decoration: underline;
+}
+
+.hero {
+	background-color: #F9F9F9;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #EEEEEE;
+	padding: 10px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 15px;
+}
+
+hr.section {
+	margin-top: 8px;
+	margin-bottom: 15px;
+	border-top: 1px solid #AAAAAA;
+}
+
+/* Faded out hr */
+hr.soften {
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,.4), rgba(100,100,100,0));
+  background-image:    -moz-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,.4), rgba(100,100,100,0));
+  background-image:     -ms-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,.4), rgba(100,100,100,0));
+  background-image:      -o-linear-gradient(left, rgba(100,100,100,0), rgba(100,100,100,.4), rgba(100,100,100,0));
+  border: 0;
+}
