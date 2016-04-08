@@ -127,6 +127,28 @@ body {
 	color: #00C947;
 }
 
+#best-paper-link:link{
+	float: right;
+	text-decoration: none;
+	display: block;
+	border: solid 1px #00C947;
+	padding: 7px;
+
+	-webkit-transition: all 0.15s ease;
+	transition: all 0.15s ease;
+}
+
+#best-paper-link:visited{
+	color: #00C947;
+	border: solid 1px #00C947;
+}
+
+#best-paper-link:hover{
+	background-color:#00C947;
+	border: solid 1px #00C947;
+	color: #FFF;
+}
+
 /* centered columns styles */
 .row-centered {
     text-align:center;
