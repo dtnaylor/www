@@ -37,9 +37,9 @@ body {
 	border-radius: 100px;
 	-webkit-border-radius: 100px;
 	-moz-border-radius: 100px;
-	background: url('../images/me-2014@2x.jpg') no-repeat;
-	background-size: 200px 300px;
-	background-position: 0 -25px;
+	background: url('../images/me-2019@2x.png') no-repeat;
+	background-size: 200px 200px;
+	/*background-position: 0 -25px;*/
 
 	box-shadow: 0 0 4px rgba(0, 0, 0, .8);
 	-webkit-box-shadow: 0 0 4px rgba(0, 0, 0, .8);
